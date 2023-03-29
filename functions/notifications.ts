@@ -105,21 +105,21 @@ const data = {
 
 const handler: Handler = async (event: HandlerEvent, _context: HandlerContext) => {
 
-  if (event.httpMethod === "PATCH") {
-    if (event.body) {
-      const params = JSON.parse(event.body);
-      for (const noti of data.notifications) {
-        if (noti.id === Number(params?.id)) {
-          noti.isUnread = !noti.isUnread;
-          break;
-        }
-      }
-      return {
-        statusCode: 202,
-        body: JSON.stringify(data)
-      }
-    }
-  };
+//   if (event.httpMethod === "PATCH") {
+//     if (event.body) {
+//       const params = JSON.parse(event.body);
+//       for (const noti of data.notifications) {
+//         if (noti.id === Number(params?.id)) {
+//           noti.isUnread = !noti.isUnread;
+//           break;
+//         }
+//       }
+//       return {
+//         statusCode: 202,
+//         body: JSON.stringify(data)
+//       }
+//     }
+//   };
 
   return {
     statusCode: 200,
