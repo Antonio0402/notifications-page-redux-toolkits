@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Antonio0402/notifications-page-redux-toolkit)
+- Solution URL: [Click here](https://github.com/Antonio0402/notifications-page-redux-toolkits)
 - Live Site URL: [Click here](https://notifications-page-redux-toolkit.netlify.app/)
 
 ## My process
