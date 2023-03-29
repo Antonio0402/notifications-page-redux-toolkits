@@ -63,7 +63,7 @@ Users should be able to:
 
 To see how you can add code snippets, see below:
 
-# Serverless funtion
+#### Serverless funtion
 
 ```js
 const handler: Handler = async (
@@ -95,7 +95,7 @@ const handler: Handler = async (
 export { handler };
 ```
 
-# Redux toolkits API
+#### Redux toolkits API
 
 ```js
 export const NotiApi = createApi({
